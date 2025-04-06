@@ -1,0 +1,64 @@
+main {
+    margin: 0 auto;
+}
+
+section.menu {
+    margin: 0 auto;
+    position: relative;
+}
+
+h2.titreMenu {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.conteneurCartes {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 75%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 25px;
+    place-items: center;
+}
+
+.imgCarte {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+h3.titreCarte {
+    margin-top: 25px;
+    color: white;
+    margin-bottom: 0px;
+}
+@media (max-width: 1440px) {
+    .conteneurCartes {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .conteneurCartes {
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteneurCartes {
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .conteneurCartes {
+        grid-template-columns: 1fr;
+    }
+}

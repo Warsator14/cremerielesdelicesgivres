@@ -1,0 +1,388 @@
+.carte1 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.carte2 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.carte3 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.carte4 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.carte5 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.carte6 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.carte7 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.carte8 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.carte9 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.carte10 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.carte11 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.carte12 {
+    background-color: #333;
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1440px) {
+    .carte1 {
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte2 {
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte3{
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte4 {
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte5 {
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte6{
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte7 {
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte8{
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte9{
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte10{
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte11{
+        width: 235px;
+        height: 350px;
+    }
+    .carte12{
+        width: 235px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .carte1 {
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte2 {
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte3{
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte4 {
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte5 {
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte6{
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte7 {
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte8{
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte9{
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte10{
+        width: 235px;
+        height: 350px;
+    }
+
+    .carte11{
+        width: 235px;
+        height: 350px;
+    }
+    .carte12{
+        width: 235px;
+        height: 350px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .carte1 {
+        width: 215px;
+        height: 350px;
+    }
+
+    .carte2 {
+        width: 215px;
+        height: 350px;
+    }
+
+    .carte3{
+        width: 215px;
+        height: 350px;
+    }
+
+    .carte4 {
+        width: 215px;
+        height: 350px;
+    }
+
+    .carte5 {
+        width: 215px;
+        height: 350px;
+    }
+
+    .carte6{
+        width: 215px;
+        height: 350px;
+    }
+
+    .carte7 {
+        width: 215px;
+        height: 350px;
+    }
+
+    .carte8{
+        width: 215px;
+        height: 350px;
+    }
+
+    .carte9{
+        width: 215px;
+        height: 350px;
+    }
+
+    .carte10{
+        width: 215px;
+        height: 350px;
+    }
+
+    .carte11{
+        width: 215px;
+        height: 350px;
+    }
+
+    .carte12{
+        width: 215px;
+        height: 350px;
+    }
+}

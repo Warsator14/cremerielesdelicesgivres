@@ -1,0 +1,240 @@
+.presentation {
+    margin-top: 200px;
+}
+
+h2.presentation {
+    margin-top: 45px;
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.conteneurFlexTitreEntreprise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteneurFlexTitreEntreprise img{
+    width: 35px;
+    height: 35px;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+.textePresentation {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.imgCremerie {
+    display: flex;
+    justify-content: center;
+}
+
+.imgCremerie img {
+    width: 55%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+address {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 45px;
+}
+
+p.telephone {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.facebook {
+    background-color: #2c2b7c;
+    width: 75%;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.facebook a {
+    color: white;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.suivezNous {
+    margin-bottom: 45px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+}
+
+.conteneurMosaique {
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    width: 75%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+img.grille {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1;
+}
+
+.grille:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.grille:nth-child(4) {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.condition {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    background-color: rgb(41, 41, 41);
+}
+
+.horaire {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 300px;
+    font-size: 2em;
+    border: 5px solid #2c2b7c;
+    width: 60%;
+    padding: 45px;
+    border-radius: 25px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.horaire h2 {
+    color: rgb(62, 60, 172);
+    font-weight: bolder;
+}
+
+@media (max-width: 1440px) {
+    .textePresentation {
+        width: 100%;
+        font-size: 18px;
+        padding: 5px 75px 75px;
+    }
+
+    .imgCremerie img {
+        width: 80%;
+        height: 400px;
+        border-radius: 35px;
+    }
+
+    .facebook {
+        width: 80%;
+    }
+
+    .conteneurMosaique {
+        width: 80%;
+        height: 80%;
+        gap: 10px;
+    }
+
+    .horaire {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .textePresentation {
+        font-size: 15px;
+        padding: 5px 55px 55px;
+    }
+
+    .imgCremerie img {
+        width: 90%;
+        height: 300px;
+    }
+
+    .horaire {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .textePresentation {
+        padding: 5px 35px 35px;
+    }
+
+    .horaire {
+        font-size: 1em;
+        padding: 15px;
+        margin-bottom: 150px;
+    }
+
+    .condition {
+        font-size: 0.8em;
+    }
+
+    .facebook {
+        width: 85%;
+        padding: 40px;
+        border-radius: 30px;
+    }
+
+    .suivezNous {
+        font-size: 1.5em;
+    }
+
+    .conteneurMosaique {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .textePresentation {
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    .imgCremerie img {
+        width: 100%;
+        object-fit: contain;
+        border-radius: 0px;
+    }
+
+    .horaire {
+        width: 80%;
+    }
+
+    address {
+        padding: 15px;
+        margin-top: 0;
+        font-size: 0.9em;
+    }
+
+    .condition {
+        font-size: 0.5em;
+    }
+
+    .facebook {
+        padding: 20px;
+    }
+}

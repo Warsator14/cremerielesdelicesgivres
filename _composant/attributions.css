@@ -1,0 +1,15 @@
+.attributions{
+    text-align: center;
+    background-color:  rgb(62, 60, 172);
+    padding-bottom: 25px;
+}
+
+.attributions h1{
+    color: white;
+    margin-bottom: 65px;
+}
+
+.conteneurImage img{
+    margin: 0 auto;
+    margin-top: 65px;
+}
